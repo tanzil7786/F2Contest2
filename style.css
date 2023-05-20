@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    text-align: start;
+    margin:10px;
+    color:grey;
+}
+
+a:hover{
+    color:blue
+}
+
+.filterUser, .addUser {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+}
+
+p, select {
+    margin-bottom: 30px;
+}
+
+#filter-option {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 120px;
+    padding: 10px 8px;
+}
+
+.btn {
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div input {
+    width: 28vw;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: x-large;
+}
+
+/* User */
+
+.user {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}

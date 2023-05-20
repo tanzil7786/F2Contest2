@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>F2 Week2</title>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#">Signup</a>
+            <div class="filterUser">
+                <p>Filter ui cards via their profession.</p>
+                <select name="" id="filter-option">
+                    <option value="">--Profession--</option>
+                    <option value="developer">Developer</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <!-- Show all user list here -->
+                <div id="filterContent">
+    
+                </div>
+                <div class="btn" onclick="filter()">
+                    <button>Filter</button>
+                </div>
+            </div>
+            <!-- Add user Section -->
+            <div class="addUser">
+                <p>Add a new user</p>
+                <form action="post">
+                    <div>
+                        <label for="name">Enter Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="profession">Enter Profession</label>
+                        <input type="text" id="profession">
+                    </div>
+                    <div>
+                        <label for="age">Enter Age</label>
+                        <input type="text" id="age">
+                    </div>
+                </form>
+                <div class="btn" onclick="addUser()">
+                    <button type="submit">Add User</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
